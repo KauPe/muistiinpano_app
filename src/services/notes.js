@@ -1,9 +1,8 @@
 import axios from 'axios'
 
+const baseUrl = '/api/notes'
 
 
-// Määritetään taustapalvelimen (json-server) perusosoite, jota kaikki pyynnöt käyttävät
-const baseUrl = 'http://localhost:3001/api/notes'
 
 /**
  * getAll: Hakee kaikki muistiinpanot palvelimelta.
