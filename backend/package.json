@@ -1,0 +1,17 @@
+{
+  "name": "part3",
+  "version": "1.0.0",
+  "description": "harjoittelusovellus",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeharkka",
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
